@@ -8,6 +8,7 @@ def prime?(integer)
     integer % n == 0
     return false
   end
+  else
     true
   end
 end
