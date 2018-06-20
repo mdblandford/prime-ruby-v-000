@@ -3,7 +3,7 @@ require'pry'
 def prime?(integer)
   if integer <= 1
     return false
-  end 
+  end
   for n in 2..(integer-1)
     integer % n == 0
     return false
