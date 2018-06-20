@@ -9,6 +9,7 @@ def prime?(integer)
     return false 
     end
   end
+else
   true 
 end
   #for n loop --> creates the variable "n" within the string (2..(integer-1))
