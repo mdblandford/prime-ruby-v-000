@@ -10,6 +10,5 @@ def prime?(integer)
   end
     true
   end
-end
   #for n loop --> creates the variable "n" within the string (2..(integer-1))
   # 2..(integer-1) creates an endless string of integers
