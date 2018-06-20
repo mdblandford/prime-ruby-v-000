@@ -2,7 +2,7 @@ require'pry'
 
 def prime?(integer)
   all_numbers_greater_than_one = (2..(integer-1)).to_a
-  all_numbers_greater_than_one.any? {|x| integer <=1 || integer % x == 0 ? false : true}
+  (all_numbers_greater_than_one.any? {|x| integer <=1 || integer % x == 0) ? false : true}
   #return false
   #end
   #for n in 2..(integer-1)
