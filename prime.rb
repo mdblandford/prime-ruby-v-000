@@ -2,10 +2,10 @@ require'pry'
 
 def prime?(integer)
   if integer <= 1
-    false
+    return false
   for n in 2..(integer-1)
     integer % n == 0
-    false
+    return false
   end
     true
   end
